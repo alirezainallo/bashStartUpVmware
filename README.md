@@ -10,8 +10,11 @@ git clone https://github.com/alirezainallo/bashStartUpVmware.git
 ```
 ### change bash permision
 ```bash
-sudo chown root:root /home/alireza/Desktop/bashStartUpVmware/startUp.bash
-sudo chmod 700 /home/alireza/Desktop/bashStartUpVmware/startUp.bash
+sudo username root=(root) NOPASSWD: /home/alireza/Desktop/bashStartUpVmware/startUp.bash
+or
+# sudo chown root:root /home/alireza/Desktop/bashStartUpVmware/startUp.bash
+
+sudo chmod +x /home/alireza/Desktop/bashStartUpVmware/startUp.bash
 ```
 
 ### create a service
