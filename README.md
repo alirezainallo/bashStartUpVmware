@@ -41,7 +41,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable myStartUp.service
 sudo systemctl start myStartUp.service
 ```
-
+### pin shared forlder
+just `cd /mnt/hgfs` and drag and drop your `shared folder` to your bookmarks.
 ### check logs
 ```bash
 journalctl -u myStartUp.service -f
