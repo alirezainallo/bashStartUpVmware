@@ -7,6 +7,7 @@ for i in {1..30}; do
     sleep 2
 done
 
+sudo mkdir -p /mnt/hgfs
 sudo mount -t fuse.vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other
 touch onStartUpCreated.txt
 
