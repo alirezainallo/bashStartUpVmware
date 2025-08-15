@@ -9,11 +9,16 @@ sudo reboot
 git clone https://github.com/alirezainallo/bashStartUpVmware.git
 ```
 ### change bash permision
+open `sudo visudo` and add this line:
 ```bash
-sudo username root=(root) NOPASSWD: /home/alireza/Desktop/bashStartUpVmware/startUp.bash
+sudo alireza root=(root) NOPASSWD: /home/alireza/Desktop/bashStartUpVmware/startUp.bash
+```
 or
-# sudo chown root:root /home/alireza/Desktop/bashStartUpVmware/startUp.bash
-
+```bash
+sudo chown root:root /home/alireza/Desktop/bashStartUpVmware/startUp.bash
+```
+after that must make it executable
+```bash
 sudo chmod +x /home/alireza/Desktop/bashStartUpVmware/startUp.bash
 ```
 
